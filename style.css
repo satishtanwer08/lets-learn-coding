@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+
+.navbar {
+    background: #111827;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 8%;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+
+.hero {
+    min-height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #7c3aed
+    );
+
+    color: white;
+}
+
+.hero-content {
+    max-width: 700px;
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+
+    background: white;
+    color: #2563eb;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Courses */
+
+.courses {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.courses h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.course-container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    width: 280px;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+
+    background: white;
+}
+
+.course-card h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.course-card p {
+    margin-bottom: 20px;
+}
+
+.course-card button {
+    padding: 10px 20px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #2563eb;
+    color: white;
+
+    cursor: pointer;
+}
+
+/* About */
+
+.about {
+    padding: 70px 8%;
+    text-align: center;
+    background: #f3f4f6;
+}
+
+.about h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+/* Contact */
+
+.contact {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background: #111827;
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+}
